@@ -1,0 +1,20 @@
+'''
+	Prueba de análisis léxico
+	DLP 15/16
+'''
+# holaaaaa
+def add(a as int, b as int) as int {
+	return a + b;
+}
+def main() {
+	integer as int;
+	real as double;	
+	character as char;
+	
+	tuple as struct {
+		key as int;
+		value as int;
+	}
+input x,y;
+z = (-x + 5) / y * (2 - x);
+print z;

@@ -1,0 +1,35 @@
+Adicionalmente a los tipos simples "int", "double" y "char", y al constructor de tipos "[]", se añaden los constructores de tipos "struct" y función.
+
+Los campos de un registro se definen como declaraciones de variables dentro del struct entre '{' y '}'.
+
+La sintaxis de declaración de las funciones será la misma que Python, con declaracion explicita de tipos. Se indica el identificador de la función, entre paréntesis la lista de sus parámetros con sus tipos y el tipo devuelto (AS tipo) si devuelve algo.
+Los tipos de los parámetros y valor devuelto serán de tipo simple (no arrays ni structs).
+
+Adicionalmente a la definición de variables globales, se podrán definir variables locales a cualquier función. 
+Las definiciones de las variables locales tendrán que realizarse antes de cualquier sentencia.
+
+Se añade la sentencia condicional "if"-"else" y la sentencia iterativa "while" con igual sintaxis que la del lenguaje C.
+
+Se añade la instrucción "return".
+
+La invocación a una función será una nueva expresión cuando retorne un valor. Un procedimiento (sin tipo de retorno) será siempre sentencia.
+
+La conversión explícita a tipos simples se realizará mediante el operador cast. 
+
+Para construir expresiones se añaden los operadores de comparación (> < >= <= != ==) y los lógicos (&& || !). La tabla de precedencias y asociatividades queda del siguiente modo:
+		( )						Sin asociatividad
+		cast					A izquierdas
+		[] .					A izquierdas
+		- unario				A Derechas
+		* / %					A Izquierdas
+		+ -						A Izquierdas
+	> >= < <= != ==				A izquierdas
+		&& || !					A Izquierdas
+		=						A derechas
+		
+		
+		
+		
+		
+		
+		

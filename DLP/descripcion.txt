@@ -1,0 +1,21 @@
+Elementos léxicos sensibles a mayúsculas/minúsculas.
+
+Elementos:
+
+  Comentarios con # hasta el final de línea
+  Comentarios con varias líneas (de ''' hasta ''')
+  Identificadores { letra (letra|digito)* }
+  		Se permitirán tildes y eñes
+  Palabras Reservadas: input print while if else int 
+						double char struct return def as cast
+  Constantes Enteras sin signo
+  Constantes Reales con punto decimal y formato exponente
+	12.3, 34.12E-3, 2., 3e3
+  Constantes carácter entre '', pudiendo identificar 
+	el código ASCII en decimal '\126' y '\n' '\t'
+  Operadores + - / * % > < = == <= >= != ( )
+  Un nuevo ambito se establece mediante el caracter '{' 
+	y finaliza con '}'.   
+  El delimitador en la declaración de variables es ',' 
+  el de sentencias es ';'
+  POR CONVENIO, el final de fichero es el token 0

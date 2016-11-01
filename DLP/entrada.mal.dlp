@@ -1,0 +1,14 @@
+'''
+	Prueba de identificación
+	DLP 15/16
+'''
+
+integer as int;
+character as char;
+real, integer as double; # Error 1
+
+def main() {
+  character as double;
+  input integer, unknow; # Error 2
+  f(); # Error 3
+}
